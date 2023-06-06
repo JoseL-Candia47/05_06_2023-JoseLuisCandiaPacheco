@@ -1,0 +1,134 @@
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco
+$ git init
+Initialized empty Git repository in C:/Users/CoolJose/Desktop/05_06_2023-JoseLuisCandiaPacheco/.git/
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (main)
+$ git remote add origin https://github.com/JoseL-Candia47/05_06_2023-JoseLuisCandiaPacheco.git
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (main)
+$ touch comandos.txt main.js index.html
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (main)
+$ git add .
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (main)
+$ git commit  -m "commit 01 de JoseLuisCandiaPacheco"
+[main (root-commit) abfa214] commit 01 de JoseLuisCandiaPacheco
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 comandos.txt
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 255 bytes | 255.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/JoseL-Candia47/05_06_2023-JoseLuisCandiaPacheco.git
+ * [new branch]      main -> main
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (main)
+$ git branch "feature01"
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (main)
+$ git checkout feature01 
+Switched to branch 'feature01'
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (feature01)
+$ mkdir Terminal Hardware
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (feature01)
+$ cd Hardware
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco/Hardware (feature01)      
+$ touch resumen.txt
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco/Hardware (feature01)      
+$ cd ..
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (feature01)
+$ cd Terminal
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco/Terminal (feature01)      
+$ touch resumen.txt
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco/Terminal (feature01)      
+$ cd ..
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (feature01)
+$ git add .
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (feature01)
+$ git commit -m "commit 02 de JoseLuisCandiaPacheco"
+[feature01 a2adad9] commit 02 de JoseLuisCandiaPacheco
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Hardware/resumen.txt
+ create mode 100644 Terminal/resumen.txt
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (feature01)
+$ git push origin feature01 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 373 bytes | 124.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'feature01' on GitHub by visiting:
+remote:      https://github.com/JoseL-Candia47/05_06_2023-JoseLuisCandiaPacheco/pull/new/feature01    
+remote:
+To https://github.com/JoseL-Candia47/05_06_2023-JoseLuisCandiaPacheco.git
+ * [new branch]      feature01 -> feature01
+
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (feature01)
+$ git  branch "feature02"
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (feature01)
+$ git checkout feature02
+Switched to branch 'feature02'
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (feature02)
+$ git add .
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (feature02)
+$ git status
+On branch feature02
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Hardware/resumen.txt
+        modified:   Terminal/resumen.txt
+
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (feature02)
+$ git commit -m "commit 03 de JoseLuisCandiaPacheco"
+[feature02 08bf8c4] commit 03 de JoseLuisCandiaPacheco
+ 2 files changed, 12 insertions(+)
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (feature02)
+$ git push origin feature02
+Enumerating objects: 11, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 719 bytes | 143.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'feature02' on GitHub by visiting:
+remote:      https://github.com/JoseL-Candia47/05_06_2023-JoseLuisCandiaPacheco/pull/new/feature02    
+remote:
+To https://github.com/JoseL-Candia47/05_06_2023-JoseLuisCandiaPacheco.git
+ * [new branch]      feature02 -> feature02
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (feature02)
+$ git checkout main 
+Switched to branch 'main'
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (main)
+$ mv comandos.txt comandosUtilizados.txt
+
+CoolJose@DESKTOP-65L56F5 MINGW64 ~/Desktop/05_06_2023-JoseLuisCandiaPacheco (main)
+$
