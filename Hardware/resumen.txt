@@ -1,0 +1,5 @@
+Partes internas de la computadora
+
+1.Procesador o CPU
+2.Memorias Ram
+3.Motherboard o Placa Madre

@@ -1,0 +1,7 @@
+Comandos usados para github...
+
+1.git init -> inicializar repositorio
+2.git add . ->agregar todos los archivos
+3.git comit -m "nombre del commit" -> crear un commit 
+4.git push origin (master o main) ->subir los archivos a git hub
+5.git branch "nombre de rama"-> Crear una nueva rama
